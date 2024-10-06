@@ -15,8 +15,8 @@ class Main {
     Lab2 lab = new Lab2();
     // Comment/Uncomment the following 3 method calls as you work on each method.
     // No code should be added to the main method. All of your code will go into the methods in Lab2.
-    //lab.linkedList();
-    //lab.queue();
+    lab.linkedList();
+    lab.queue();
     lab.stack();
   }
 }
@@ -78,7 +78,7 @@ class Lab2 {
 
   public void stack() {
     // 12. Create a Stack<String> called bookStack
-    Stack<String> bookStack = new Stack();
+    Stack<String> bookStack = new Stack<String>();
 
     // 13. Push the following book titles onto bookStack: "Clean Code", "Design Patterns", "Pragmatic Programmer"
     bookStack.push("Clean Code");
